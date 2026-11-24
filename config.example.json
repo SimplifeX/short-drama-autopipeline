@@ -1,0 +1,28 @@
+{
+  "canvas": {
+    "origin": "canvas.simplife.icu",
+    "blob_dir": ""
+  },
+  "gateway": {
+    "host": "",
+    "port": 18080,
+    "token_file": ""
+  },
+  "ssh_alias": "",
+  "tools": {
+    "tool_results_dir": "",
+    "comfyui_output": ""
+  },
+  "ffmpeg": {
+    "has_libass": false,
+    "has_drawtext": false
+  },
+  "limits": {
+    "video_concurrency": 3,
+    "fanout": 4,
+    "vquality": "720",
+    "max_seconds": 14,
+    "hard_limit_seconds": 15,
+    "max_real_duration": 14.375
+  }
+}
