@@ -170,3 +170,15 @@ tests/                9 项回归测试
 - **帧网格表 11–14 秒档为推算值**，首次跑到这些档位请核对返回的 `durationMs`。
 - **`vquality` 只有 `"720"` 有效**，实际上限 768P。写 1080 不会报错，会静默降级。
 - **手册里的并发/扇出数字是某一时刻的观测值**，渠道升级后要重测，不要当常量。
+
+---
+
+## 十、致谢与开源项目
+
+本技能的完整流水线基于以下优秀的开源项目与社区生态构建，特此致谢：
+
+- **[@basketikun/infinite-canvas](https://github.com/basketikun/infinite-canvas)**（by @basketikun）— 提供开源无限画布工作台与 `@basketikun/canvas-agent` MCP 桥接能力，是本流水线的画布编排与资产交互底座。
+- **[@MiniMax-AI/MiniMax-H3](https://github.com/MiniMax-AI/MiniMax-H3)** — 提供 MiniMax H3 开源音画视频生成模型及官方提示词规范（`references/h3/` 基于其官方文档整理）。
+- **[ComfyUI](https://github.com/comfyanonymous/ComfyUI)** / **[Comfy-Org](https://github.com/Comfy-Org)** — 提供底层工作流推理引擎与官方模型模板生态。
+- **[FFmpeg](https://github.com/FFmpeg/FFmpeg)** & **[Pillow](https://github.com/python-pillow/Pillow)** — 提供音视频分析、字幕压制、联系表生成与后期成片装配能力。
+
